@@ -1,0 +1,12 @@
+{
+  "" : {
+    "dependencies" : "/Users/mac/Desktop/PlayerOnTelegram/DerivedData/PlayerOnTelegram/Index.noindex/Build/Intermediates.noindex/PlayerOnTelegram.build/Debug-iphonesimulator/PlayerOnTelegramTests.build/Objects-normal/arm64/PlayerOnTelegramTests-master.d",
+    "diagnostics" : "/Users/mac/Desktop/PlayerOnTelegram/DerivedData/PlayerOnTelegram/Index.noindex/Build/Intermediates.noindex/PlayerOnTelegram.build/Debug-iphonesimulator/PlayerOnTelegramTests.build/Objects-normal/arm64/PlayerOnTelegramTests-master.dia",
+    "emit-module-dependencies" : "/Users/mac/Desktop/PlayerOnTelegram/DerivedData/PlayerOnTelegram/Index.noindex/Build/Intermediates.noindex/PlayerOnTelegram.build/Debug-iphonesimulator/PlayerOnTelegramTests.build/Objects-normal/arm64/PlayerOnTelegramTests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/mac/Desktop/PlayerOnTelegram/DerivedData/PlayerOnTelegram/Index.noindex/Build/Intermediates.noindex/PlayerOnTelegram.build/Debug-iphonesimulator/PlayerOnTelegramTests.build/Objects-normal/arm64/PlayerOnTelegramTests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/mac/Desktop/PlayerOnTelegram/DerivedData/PlayerOnTelegram/Index.noindex/Build/Intermediates.noindex/PlayerOnTelegram.build/Debug-iphonesimulator/PlayerOnTelegramTests.build/Objects-normal/arm64/PlayerOnTelegramTests-master.swiftdeps"
+  },
+  "/Users/mac/Desktop/PlayerOnTelegram/PlayerOnTelegramTests/PlayerOnTelegramTests.swift" : {
+
+  }
+}

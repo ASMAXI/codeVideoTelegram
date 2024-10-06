@@ -1,0 +1,48 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "2929bb19f19c2e0fc9928b4bfef74db8c3e3684efeda48e3faffa60283c48f86"
+    }
+  ],
+  "containerPath" : "/Users/mac/Desktop/PlayerOnTelegram/PlayerOnTelegram.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/mac/Desktop/PlayerOnTelegram/DerivedData/PlayerOnTelegram/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/mac/Desktop/PlayerOnTelegram/DerivedData/PlayerOnTelegram/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/mac/Desktop/PlayerOnTelegram/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/mac/Desktop/PlayerOnTelegram/DerivedData/PlayerOnTelegram/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/mac/Desktop/PlayerOnTelegram/DerivedData/PlayerOnTelegram/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Users/mac/Desktop/PlayerOnTelegram/DerivedData/PlayerOnTelegram/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Users/mac/Desktop/PlayerOnTelegram/DerivedData/PlayerOnTelegram/Build/Products",
+      "pchPath" : "/Users/mac/Desktop/PlayerOnTelegram/DerivedData/PlayerOnTelegram/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

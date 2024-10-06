@@ -1,0 +1,15 @@
+{
+  "" : {
+    "dependencies" : "/Users/mac/Desktop/PlayerOnTelegram/DerivedData/PlayerOnTelegram/Index.noindex/Build/Intermediates.noindex/PlayerOnTelegram.build/Debug-maccatalyst/PlayerOnTelegramUITests.build/Objects-normal/arm64/PlayerOnTelegramUITests-master.d",
+    "diagnostics" : "/Users/mac/Desktop/PlayerOnTelegram/DerivedData/PlayerOnTelegram/Index.noindex/Build/Intermediates.noindex/PlayerOnTelegram.build/Debug-maccatalyst/PlayerOnTelegramUITests.build/Objects-normal/arm64/PlayerOnTelegramUITests-master.dia",
+    "emit-module-dependencies" : "/Users/mac/Desktop/PlayerOnTelegram/DerivedData/PlayerOnTelegram/Index.noindex/Build/Intermediates.noindex/PlayerOnTelegram.build/Debug-maccatalyst/PlayerOnTelegramUITests.build/Objects-normal/arm64/PlayerOnTelegramUITests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/mac/Desktop/PlayerOnTelegram/DerivedData/PlayerOnTelegram/Index.noindex/Build/Intermediates.noindex/PlayerOnTelegram.build/Debug-maccatalyst/PlayerOnTelegramUITests.build/Objects-normal/arm64/PlayerOnTelegramUITests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/mac/Desktop/PlayerOnTelegram/DerivedData/PlayerOnTelegram/Index.noindex/Build/Intermediates.noindex/PlayerOnTelegram.build/Debug-maccatalyst/PlayerOnTelegramUITests.build/Objects-normal/arm64/PlayerOnTelegramUITests-master.swiftdeps"
+  },
+  "/Users/mac/Desktop/PlayerOnTelegram/PlayerOnTelegramUITests/PlayerOnTelegramUITests.swift" : {
+
+  },
+  "/Users/mac/Desktop/PlayerOnTelegram/PlayerOnTelegramUITests/PlayerOnTelegramUITestsLaunchTests.swift" : {
+
+  }
+}

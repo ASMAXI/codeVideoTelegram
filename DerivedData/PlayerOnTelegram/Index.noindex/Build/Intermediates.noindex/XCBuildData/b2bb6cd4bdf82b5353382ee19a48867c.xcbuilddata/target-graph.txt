@@ -1,0 +1,8 @@
+Target dependency graph (5 targets)
+Target 'PlayerOnTelegramUITests' in project 'PlayerOnTelegram' (no dependencies)
+Target 'PlayerOnTelegramUITests' in project 'PlayerOnTelegram'
+➜ Explicit dependency on target 'PlayerOnTelegram' in project 'PlayerOnTelegram'
+Target 'PlayerOnTelegram' in project 'PlayerOnTelegram' (no dependencies)
+Target 'PlayerOnTelegramUITests' in project 'PlayerOnTelegram'
+➜ Explicit dependency on target 'PlayerOnTelegram' in project 'PlayerOnTelegram'
+Target 'PlayerOnTelegram' in project 'PlayerOnTelegram' (no dependencies)

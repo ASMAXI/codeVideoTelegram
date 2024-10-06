@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0444E27D2CB2CB9B008557EB /* GStreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0444E27C2CB2CB9B008557EB /* GStreamer.framework */; };
+		0444E27E2CB2CB9B008557EB /* GStreamer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0444E27C2CB2CB9B008557EB /* GStreamer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		04EAC7202CB2B857000E0E04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -23,48 +28,38 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0444E27F2CB2CB9B008557EB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0444E27E2CB2CB9B008557EB /* GStreamer.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0444E27C2CB2CB9B008557EB /* GStreamer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GStreamer.framework; path = ../../../../Library/Frameworks/GStreamer.framework; sourceTree = "<group>"; };
+		0444E2802CB2CBC6008557EB /* read.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = read.txt; sourceTree = "<group>"; };
+		0444E2812CB2CC14008557EB /* GStreamerPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GStreamerPlayer.h; sourceTree = "<group>"; };
+		0444E2822CB2CC27008557EB /* GStreamerPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GStreamerPlayer.m; sourceTree = "<group>"; };
+		0444E2832CB2CC37008557EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0444E2842CB2CC48008557EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		04EAC70C2CB2B855000E0E04 /* PlayerOnTelegram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayerOnTelegram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EAC71F2CB2B857000E0E04 /* PlayerOnTelegramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayerOnTelegramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EAC7292CB2B857000E0E04 /* PlayerOnTelegramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayerOnTelegramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		04EAC7312CB2B857000E0E04 /* Exceptions for "PlayerOnTelegram" folder in "PlayerOnTelegram" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 04EAC70B2CB2B855000E0E04 /* PlayerOnTelegram */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		04EAC70E2CB2B855000E0E04 /* PlayerOnTelegram */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				04EAC7312CB2B857000E0E04 /* Exceptions for "PlayerOnTelegram" folder in "PlayerOnTelegram" target */,
-			);
-			path = PlayerOnTelegram;
-			sourceTree = "<group>";
-		};
-		04EAC7222CB2B857000E0E04 /* PlayerOnTelegramTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PlayerOnTelegramTests;
-			sourceTree = "<group>";
-		};
-		04EAC72C2CB2B857000E0E04 /* PlayerOnTelegramUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PlayerOnTelegramUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		04EAC7092CB2B855000E0E04 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0444E27D2CB2CB9B008557EB /* GStreamer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,12 +80,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0444E27B2CB2CB9B008557EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0444E27C2CB2CB9B008557EB /* GStreamer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		04EAC7032CB2B855000E0E04 = {
 			isa = PBXGroup;
 			children = (
-				04EAC70E2CB2B855000E0E04 /* PlayerOnTelegram */,
-				04EAC7222CB2B857000E0E04 /* PlayerOnTelegramTests */,
-				04EAC72C2CB2B857000E0E04 /* PlayerOnTelegramUITests */,
+				0444E2842CB2CC48008557EB /* ViewController.m */,
+				0444E2832CB2CC37008557EB /* ViewController.h */,
+				0444E2822CB2CC27008557EB /* GStreamerPlayer.m */,
+				0444E2812CB2CC14008557EB /* GStreamerPlayer.h */,
+				0444E2802CB2CBC6008557EB /* read.txt */,
+				0444E27B2CB2CB9B008557EB /* Frameworks */,
 				04EAC70D2CB2B855000E0E04 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,13 +121,11 @@
 				04EAC7082CB2B855000E0E04 /* Sources */,
 				04EAC7092CB2B855000E0E04 /* Frameworks */,
 				04EAC70A2CB2B855000E0E04 /* Resources */,
+				0444E27F2CB2CB9B008557EB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				04EAC70E2CB2B855000E0E04 /* PlayerOnTelegram */,
 			);
 			name = PlayerOnTelegram;
 			packageProductDependencies = (
@@ -143,9 +147,6 @@
 			dependencies = (
 				04EAC7212CB2B857000E0E04 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				04EAC7222CB2B857000E0E04 /* PlayerOnTelegramTests */,
-			);
 			name = PlayerOnTelegramTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +166,6 @@
 			);
 			dependencies = (
 				04EAC72B2CB2B857000E0E04 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				04EAC72C2CB2B857000E0E04 /* PlayerOnTelegramUITests */,
 			);
 			name = PlayerOnTelegramUITests;
 			packageProductDependencies = (
@@ -291,6 +289,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PlayerOnTelegram/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PlayerOnTelegram/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -321,6 +323,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PlayerOnTelegram/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PlayerOnTelegram/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

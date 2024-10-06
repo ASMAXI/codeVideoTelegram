@@ -1,0 +1,10 @@
+version: "Apple Swift version 6.0 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)"
+options: "ca16e58bed62afd8fcd86ba128a1d6f7bc2e40ab3140d453014bcf2b46f3ec90"
+build_start_time: [1728217709, 462628000]
+build_end_time: [1728217709, 887994000]
+inputs:
+  ? "/Users/mac/Desktop/PlayerOnTelegram/DerivedData/PlayerOnTelegram/Index.noindex/Build/Intermediates.noindex/PlayerOnTelegram.build/Debug-iphonesimulator/PlayerOnTelegram.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : [1728217706, 79133567]
+  "/Users/mac/Desktop/PlayerOnTelegram/PlayerOnTelegram/ContentView.swift": [1728217301, 285037440]
+  "/Users/mac/Desktop/PlayerOnTelegram/PlayerOnTelegram/PlayerOnTelegramApp.swift": [1728217301, 280637928]
+  "/Users/mac/Desktop/PlayerOnTelegram/PlayerOnTelegram/PlayerOnTelegramDocument.swift": [1728217301, 283792775]
